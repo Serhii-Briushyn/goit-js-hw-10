@@ -35,4 +35,5 @@ form.addEventListener('submit', function (event) {
         position: 'topRight',
       });
     });
+  document.querySelector('.form input').value = '';
 });
